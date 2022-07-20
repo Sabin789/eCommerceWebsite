@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>E-Commerce Store</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2103.13">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="e-com.js" async></script>
+</head>
+<body>
+  <div class="header">
+
+
+  <div class="container">
+ <div class="navbar">
+   <div class="logo">
+   <a href="index.html"><img src="images/E-Commerce.png" alt="Logo" width="100px"> </a></div>
+   <nav>
+   <ul id="menuItems">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="account.html">Account</a></li>
+   </ul>
+ </nav>
+  <img src="images/menu.png" width="30px" height="30px" class="menu" onclick="menuToggle()">
+</div>
+</div>
+</div>
+
+<div class="small-container">
+  <div class="rows row2">
+    <h1>All Products</h1>
+    <select id="sorting" onchange="sorting()">
+      <option >Default Sorting</option>
+      <option value="1">Sort by Price:Low to High</option>
+      <option value="2">Sort by Price:High to Low</option>
+
+      <option value="3">Sort by Ratign:Low to High </option>
+    </select>
+
+  </div>
+  <div id="products"class="rows">
+    <div class="col-products">
+      <a href="product pages/Apple-Watch.html">  <img src="images/apple-watch.jpeg" ></a>
+      <h2 class="name">Apple Watch</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>39.50£</p>
+      <button type="button" class="Add-cart">Add to Cart</button>
+    </div>
+    <div class="col-products">
+      <a href="product pages/treadmill.html"><img src="images/Treadmill.jpg" ></a>
+      <h2 class="name">Treadmill</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>240.50£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/laptop.html">  <img src="images/laptop.jpg" ></a>
+      <h2 class="name">Laptop</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>79.99£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/TV2.html">  <img src="images/TV2.webp" ></a>
+      <h2 class="name">TV</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>49.50£</p>
+    </div>
+
+  <div class="rows">
+    <div class="col-products">
+      <a href="product pages/printer.html">  <img src="images/Printer.jpg" ></a>
+      <h2 class="name">HP Printer</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>59.50£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/Vacuum.html">  <img src="images/Vacuum.jpeg" ></a>
+      <h2 class="name">Vacuum Cleaner</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>219.99£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/Imac.html">    <img src="images/Imac.large" ></a>
+      <h2 class="name">Imac</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>500£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/Lamp.html"><img src="images/lamp.jpg" ></a>
+      <h2 class="name">Lamp</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>21.50£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/Alarm.html"><img src="images/Alarm.jpeg" ></a>
+      <h2 class="name">Alarm Clock</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>12.50£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/washing-machine.html"><img src="images/washing-machine2.jpeg" ></a>
+      <h2 class="name">Washing Machine</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>80£</p>
+    </div>
+    <div class="col-products">
+      <a href="product pages/Phone.html"><img src="images/Phone.jpeg" ></a>
+      <h2 class="name">Phone</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>75.99£</p>
+    </div>
+    <div class="col-products">
+      <img src="images/apple-watch.jpeg" >
+      <h2 class="name">Apple Watch</h2>
+      <div class="rating">
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star" ></i>
+<i class="fa fa-star-o" ></i>
+      </div>
+      <p>39.50£</p>
+    </div>
+  </div>
+  <div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="footer" >
+  <div class="container">
+   <div class="rows">
+     <div class="footer-col-1">
+       <h3>Download our App</h3>
+       <p>Dwonload for Android or IOS</p>
+       <div class="app-logo">
+         <img src="images/GPlay.jpeg" alt="">
+         <img src="images/AStore.webp" alt="">
+       </div>
+     </div>
+     <div class="footer-col-2">
+       <img src="images/E-Commerce.png" alt="Logo" width="140px">
+       <p></p>
+     </div>
+     <div class="footer-col-3">
+       <h3>Links</h3>
+       <ul>
+         <li>Coupons</li>
+         <li>Return Policy</li>
+         <li>Join Affiliates</li>
+
+       </ul>
+     </div>
+     <div class="footer-col-3">
+       <h3>Find us on</h3>
+       <ul>
+         <li>Instagram</li>
+         <li>Twitter</li>
+         <li>Facebook</li>
+         <li>Youtube</li>
+       </ul>
+     </div>
+  </div>
+</div>
+</div>
+
+<script>
+function menuToggle(){
+    $('#menuItems').toggle()
+}
+</script>
+<script>
+
+
+
+
+function sorting(){
+  $.ajax({
+url: "http://127.0.0.1:3000/e-com.json",
+success: function(data){
+      console.log(data)
+       let products = data
+
+      let sortingType = $('#sorting').val()
+      let productsSorted = []
+      let output = ""
+
+
+      if(sortingType==3){
+          console.log("Sort by Rating - low to high")
+          let productsRatingOne = [];
+          let productsRatingTwo = [];
+          let productsRatingThree = [];
+          let productsRatingFour = [];
+          let productsRatingFive = [];
+
+      products.forEach(product => {
+          if(product['rating']==1){productsRatingOne.push(product)}
+          if(product['rating']==2){productsRatingTwo.push(product)}
+          if(product['rating']==3){productsRatingThree.push(product)}
+          if(product['rating']==4){productsRatingFour.push(product)}
+          if(product['rating']==5){productsRatingFive.push(product)}
+      });
+
+      productsRatingFive.forEach(product => {
+          productsSorted.push(product)
+      });
+
+      productsRatingFour.forEach(product => {
+          productsSorted.push(product)
+      });
+      productsRatingThree.forEach(product => {
+          productsSorted.push(product)
+      });
+      productsRatingTwo.forEach(product => {
+          productsSorted.push(product)
+      });
+      productsRatingOne.forEach(product => {
+          productsSorted.push(product)
+      });
+
+      productsSorted = Object.entries(productsSorted)
+          productsSorted.forEach(product => {
+             let stars = ""
+
+            for(let i=0; i<product[1]['rating'] ;i++){
+              stars +=`<i class="fa fa-star"></i>`
+            }
+            let negativeStars=""
+            for(let j=5; j>product[1]['rating'];j--){
+              negativeStars+=`<i class="fa fa-star-o"></i>`
+            }
+            output= `<div class="col-products"><img src=" ${product[1]['image']}"><h2>${product[1]['title']}</h2><div class="rating">${stars}${negativeStars}</div><p>${product[1]['price']}£</p></div>`+output
+
+          });
+      }
+
+
+
+      else if(sortingType==1){
+          console.log("Sort by Price - low to high")
+          products.forEach(product => {
+              productsSorted[product['price']] = product
+          });
+console.log(productsSorted)
+          productsSorted = Object.entries(productsSorted)
+          productsSorted.forEach(product => {
+
+         output= output+`<div class="col-products"><img src=" ${product[1]['image']}"><h2>${product[1]['title']}</h2><p>${product[1]['price']}£</p></div>`
+
+          });
+      }else if(sortingType==2){
+          console.log("Sort by Price - high to low")
+          products.forEach(product => {
+              productsSorted[product['price']] = product
+          });
+    productsSorted = Object.entries(productsSorted)
+          productsSorted.forEach(product => {
+            output= `<div class="col-products"><img src=" ${product[1]['image']}"><h2>${product[1]['title']}</h2><p>${product[1]['price']}£</p></div>`+output
+
+          });
+
+      }
+      $('#products').html(output)
+},
+error: function(){
+  alert("There was an error.");
+}
+});
+
+
+}
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+[{
+  "image":"images/apple-watch.jpeg",
+    "title":"Apple Watch",
+    "rating":4,
+    "price":3950
+},
+{
+  "image":"images/Treadmill.jpg",
+  "title":"treadmill",
+  "rating":5,
+  "price":240
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"laptop",
+  "rating":4,
+  "price":7999
+
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"Tv",
+  "rating":4,
+  "price":49
+},
+{
+"image":"images/apple-watch.jpeg",
+  "title":"HP Printer",
+  "rating":5,
+  "price":5950
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"Vacuum Cleaner",
+  "rating":4,
+  "price":21999
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"Imac",
+  "rating":3,
+  "price":500
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"Lamp",
+  "rating":2,
+  "price":2150
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"Alarm Clock",
+  "rating":1,
+  "price":1250
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"Washing Machine",
+  "rating":4,
+  "price":80
+},
+{
+  "image":"images/apple-watch.jpeg",
+  "title":"Phone",
+  "rating":4,
+  "price":7599
+}
+]
