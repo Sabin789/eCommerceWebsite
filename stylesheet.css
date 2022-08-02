@@ -4,29 +4,7 @@
   box-sizing: border-box;
 }
 
-/*----nav----*/
-/* .navbar{
-  display: flex;
-  align-items: center;
-  padding: 20px;
- background-color: orange;
-}
-nav{
 
-  flex: 1;
-  text-align: right;
-
-}
-nav ul{
-  display:inline-block;
-  list-style-type: none;
-}
-
-nav ul li{
-  display: inline-block;
-  margin-right: 20px; */
-
-/* } */
 a{
   color: black;
 }
@@ -334,10 +312,10 @@ select{
 /*---media queries screen----*/
 @media only screen and (max-width:800px) {
   nav ul{
-    position: absolute;
+   
     top: 120px;
     left: 0;
-    background: black;
+
     width: 100%;
   }
 }
