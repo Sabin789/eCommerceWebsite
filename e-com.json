@@ -2,7 +2,7 @@
   "image":"images/apple-watch.jpeg",
     "title":"Apple Watch",
     "rating":4,
-    "price":3950
+    "price":39.50
 },
 {
   "image":"images/Treadmill.jpg",
@@ -14,7 +14,7 @@
   "image":"images/apple-watch.jpeg",
   "title":"laptop",
   "rating":4,
-  "price":7999
+  "price":79.99
 
 },
 {
@@ -27,13 +27,13 @@
 "image":"images/apple-watch.jpeg",
   "title":"HP Printer",
   "rating":5,
-  "price":5950
+  "price":59.50
 },
 {
   "image":"images/apple-watch.jpeg",
   "title":"Vacuum Cleaner",
   "rating":4,
-  "price":21999
+  "price":219.99
 },
 {
   "image":"images/apple-watch.jpeg",
@@ -45,13 +45,13 @@
   "image":"images/apple-watch.jpeg",
   "title":"Lamp",
   "rating":2,
-  "price":2150
+  "price":21.50
 },
 {
   "image":"images/apple-watch.jpeg",
   "title":"Alarm Clock",
   "rating":1,
-  "price":1250
+  "price":12.50
 },
 {
   "image":"images/apple-watch.jpeg",
@@ -63,6 +63,6 @@
   "image":"images/apple-watch.jpeg",
   "title":"Phone",
   "rating":4,
-  "price":7599
+  "price":75.99
 }
 ]
